@@ -1,0 +1,85 @@
+p {
+  color: forestgreen;
+  font-size: 16px;
+}
+h1 {
+  color: #26358C; font-family: fantasy; font-size: 125%;
+}
+h3 {
+  color: #3F731A; font-family: fantasy; font-size: 125%;
+}
+caption {
+  color: #26358C; font-family: fantasy; font-size: 125%;
+}
+ul {
+  list-style-type: square;
+}
+.navigation ul {
+  font: bold 25px "Verdana", Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.navigation li {
+  display: inline-block;
+}
+.navigation a {
+  background: forestgreen;
+  background: linear-gradient(forestgreen, lightgreen);
+  border-right: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+.navigation a:hover {
+  background: darkgreen;
+  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.navigation li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+img {
+  background: forestgreen;
+  border: 1px solid forestgreen;
+  float: center;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td {
+  padding: 10px 15px;
+}
+thead {
+  background: #3F731A;
+  color: #fff;
+}
+th {
+  background: #3F731A;
+  color: #fff;
+}
+tbody tr:nth-child(even) {
+  background: #CFD9CC;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+  
+}
